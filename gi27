@@ -1,0 +1,124 @@
+página 1 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ponto Turístico em Bragança Paulista</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #3498db;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ponto Turístico em Bragança Paulista</h1>
+    </header>
+
+    <section>
+        <h2>Lago do Taboão</h2>
+        <img src="lago_taboao.jpg" alt="Lago do Taboão">
+        <p>O Lago do Taboão é um lugar encantador no centro da cidade, ideal para passeios e atividades ao ar livre.</p>
+
+        <p>Descubra outros lugares interessantes em Bragança Paulista: <a href="lugares_favoritos.html">Meus Lugares Favoritos</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ponto Turístico em Bragança Paulista. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+página 2
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Favoritos em Bragança Paulista</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #3498db;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Favoritos em Bragança Paulista</h1>
+    </header>
+
+    <section>
+        <h2>Praça Raul Leme</h2>
+        <img src="praca_raul_leme.jpg" alt="Praça Raul Leme">
+        <p>A Praça Raul Leme é um local aconchegante para passeios e eventos ao ar livre.</p>
+
+        <h2>Cervejaria Artesanal</h2>
+        <img src="cervejaria.jpg" alt="Cervejaria Artesanal">
+        <p>Aproveite para degustar cervejas artesanais em um ambiente descontraído na cervejaria local.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lugares Favoritos em Bragança Paulista. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

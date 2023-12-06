@@ -1,0 +1,59 @@
+HTML (index.html):
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Exemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cartas-container">
+        <div class="carta">Carta 1</div>
+        <div class="carta">Carta 2</div>
+        <div class="carta">Carta 3</div>
+        <div class="carta">Carta 4</div>
+        <div class="carta">Carta 5</div>
+    </div>
+</body>
+</html>
+
+CSS (styles.css):
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cartas-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.carta {
+    width: 100px;
+    height: 150px;
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carta:hover {
+    background-color: #2980b9;
+}
